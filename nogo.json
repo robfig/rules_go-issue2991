@@ -1,0 +1,10 @@
+{
+  "atomic": {
+    "exclude_files": {
+      "__main__/external": "exclude external libraries (https://github.com/bazelbuild/rules_go/issues/2513)"
+    },
+    "only_files": {
+      "src/": ""
+    }
+  }
+}
